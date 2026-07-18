@@ -1,7 +1,6 @@
 # Neovim configuration.
 
-
-# structure
+# Structure
 ```
 nvim/
 ├── lua/
@@ -13,6 +12,7 @@ nvim/
 │       ├── gitsigns.lua
 │       ├── lsp.lua
 │       ├── telescope.lua
+│       ├── nvim-tree.lua
 │       └── treesitter.lua
 ├── init.lua
 ├── lazy-lock.json
