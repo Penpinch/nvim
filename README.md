@@ -5,7 +5,7 @@
 nvim/
 ├── lua/
 │   ├── config/
-│   │   └── blink.lua
+│   │   └── lazy.lua
 │   └── plugins/
 │       ├── blink.lua
 │       ├── colors.lua
