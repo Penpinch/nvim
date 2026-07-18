@@ -5,7 +5,7 @@ return {
         "nvim-lua/plenary.nvim",
         {
             "nvim-telescope/telescope-fzf-native.nvim",
-            build = "make", -- requiere make y gcc, ya los tienes si compilaste treesitter
+            build = "make",
         },
     },
 
@@ -31,7 +31,7 @@ return {
 
             pickers = {
                 find_files = {
-                    hidden = true, -- muestra archivos ocultos (dotfiles)
+                    hidden = true,
                 },
             },
 
