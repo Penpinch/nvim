@@ -17,6 +17,7 @@ nvim/
 │       ├── lualine.lua      # Information at the bottom.
 │       ├── oil.lua          # File explorer as text.
 │       ├── conform.lua      # Code formatter.
+│       ├── which-key.lua    # Shortcuts.
 │       └── treesitter.lua   # syntax tree.
 ├── init.lua
 ├── lazy-lock.json
