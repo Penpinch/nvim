@@ -26,7 +26,9 @@ return {
                 local lang = vim.treesitter.language.get_lang(args.match) or args.match
                 local ok = pcall(vim.treesitter.start, args.buf, lang)
                 if ok then
-                    vim.bo[args.buf].indentexpr = "v:lua.vim.treesitter.indentexpr()"
+                    if args.match ~= "c" and args.match ~= "cpp" then
+                        vim.bo[args.buf].indentexpr = "v:lua.vim.treesitter.indentexpr()"
+                    end
                 end
             end,
         })
