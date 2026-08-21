@@ -1,4 +1,5 @@
 vim.g.mapleader=" "
+vim.opt.termguicolors = true
 local lazypath=vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 vim.opt.rtp:prepend(lazypath)
 vim.opt.number=true

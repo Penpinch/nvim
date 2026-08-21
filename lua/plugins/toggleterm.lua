@@ -24,8 +24,13 @@ return {
             persist_size = true,
             close_on_exit = true,
 
+            highlights = {
+                FloatBorder = { guifg = "#7A0941", guibg = "NONE", },
+            },
+
             float_opts = {
-                border = "curved",
+                -- border = "curved", 
+                border = { "╔", "═", "╗", "║", "╝", "═", "╚", "║", },
                 winblend = 0,
             },
         })
